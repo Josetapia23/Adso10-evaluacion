@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdd8455cb2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--Encabezado de la pagina-->
+    <header class="header"> 
+        <div class="menu container">
+            <a href="#" class="logo">E-commerce</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png"  class="menu-icono" alt="menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Hombre</a></li>
+                    <li><a href="#">Mujer</a></li>
+                    <li><a href="#">nosotros</a></li>
+                    <li><a href="login.html">login</a></li>
+                    
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+<!--Formulario login-->
+
+    <div class="containerfr">
+        <div class="form-conten">
+            <h1 id="title">Registrate</h1>
+            <form>
+                <div class="input-group">
+
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <p>Olvidaste tu Contraseña <a href="#">Click aqui</a></p>
+                    <div class="btn-field">
+                        <button id="signUp" type="button">Registro</button>
+                        <button id="signIn" type="button" class="disable">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+
+        <div class="footer-content container">
+            <div class="link">
+                <h3>conocenos</h3>
+
+                <ul>
+                    
+                    <li><a href="#">instagram</a></li>
+                    <li><a href="#">pinterest</a></li>
+                    <li><a href="#">como iniciamos</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>envios</h3>
+                <ul>
+                   
+                    <li><a href="#">tus envios</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Colaboraciones</h3>
+                <ul>
+                    <li><a href="#">mas vendidos</a></li>
+                    <li><a href="#">nuevos</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Personalizado</h3>
+                <ul>
+                    <li><a href="#">Tus obras</a></li>
+                    <li><a href="#">diseños populares</a></li>
+                    <li><a href="#">tus ordenes</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
